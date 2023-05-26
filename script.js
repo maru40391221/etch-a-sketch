@@ -13,7 +13,6 @@ function createLines (){
     }
 }
 
-//creating a line of boxes vertically
 function createBoxes (){
 for (let i = 0; i < numberOfBoxes; i++){
     createLines();
