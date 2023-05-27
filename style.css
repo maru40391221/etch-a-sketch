@@ -13,11 +13,20 @@
 .container{
 display:grid;
 grid-template-columns: repeat(16, 1fr);
-
 }
+
+
 
 .line {
     width: 100px;
     height: 100px;
     border: 1px solid;
+    transition:0s 180s;
 }
+
+.colored:hover {
+    background-color: pink;
+    transition:0s;
+} 
+
+

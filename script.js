@@ -9,6 +9,7 @@ function createLines (){
         const line = document.createElement("div");
         container.appendChild(line);
         line.classList.add("line");
+        line.classList.add("colored");
         console.log(i);
     }
 }
