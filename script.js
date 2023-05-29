@@ -2,6 +2,11 @@ const container = document.querySelector(".container");
 let numberOfBoxes = 16;
 let numberOfLines = 16;
 
+// container.style.display = "grid";
+// container.style.gridTemplateColumns = `repeat(${numberOfBoxes}, 0fr)`; 
+
+
+
 function createGrid (){
 //creating a line of boxes horizontally
 function createLines (){
