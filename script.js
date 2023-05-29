@@ -1,13 +1,18 @@
 const container = document.querySelector(".container");
+const smallButton = document.querySelector("#smallButton");
+const mediumButton = document.querySelector("#mediumButton");
+const largeButton = document.querySelector("#largeButton");
+
 let numberOfBoxes = 16;
 let numberOfLines = 16;
 
 // container.style.display = "grid";
 // container.style.gridTemplateColumns = `repeat(${numberOfBoxes}, 0fr)`; 
 
+// mediumButton.onclick = ;
 
 
-function createGrid (){
+function createMediumGrid (){
 //creating a line of boxes horizontally
 function createLines (){
     for (let i = 0; i < numberOfLines; i++){
@@ -28,7 +33,8 @@ createBoxes();
 
 }
 
-createGrid();
+createMediumGrid();
+
 
 
 
