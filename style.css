@@ -1,29 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
-body{
-    background-color: #FAFEEB;
-}
-
-
-.column{
-    display:flex;
-    flex-direction: column;
-    border: 1px solid red;
-    width: 5vh;
-    height: 5vh;
-
-}
-
-.row{
-    display:flex;
-}
-
-/* the codes below are the first attempt with grid-layout. I failed. Now I will try to make 16x16 grids with flexbox-layout. So they can shrink and whatnot. */
-/* 
 @import url('https://fonts.googleapis.com/css2?family=Chokokutai&display=swap');
 
 .title-wrapper{
@@ -88,4 +63,10 @@ body{
     margin: 10px;
     text-align: center;
 
-} */
+} 
+
+.resetWrapper{
+    display:flex;
+    justify-content: center;
+
+}
